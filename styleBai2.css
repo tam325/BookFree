@@ -1,0 +1,157 @@
+body{
+    /* background-image: url(/images/6dK.gif); */
+    /* background-image: url(/images/Thiết\ kế\ không\ tên.png); */
+}
+.container_header1{
+    /* line-height: 60px; */
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+    /* background-color: antiquewhite; */
+    text-align: center;
+}
+.container_navbar1{
+    height: 40px;
+    /* background-color: rgb(172, 206, 206); */
+    background-image: linear-gradient(0, rgba(240, 134, 64, 0.959), rgb(233, 163, 71));
+    border-radius: 5px;
+    text-align: center;
+}
+.container_navbar1 a{
+    line-height: 40px;
+    margin: 0 20px;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: black;
+}
+.container_navbar1 a:hover{
+    color: white;
+    font-weight: bolder;
+}
+.container_box{
+    margin-top: 10px;
+    display: block;
+}
+.box1{
+    min-height: 100px;
+    width: 29%;
+    /* box-shadow: 0 0 4px gray; */
+    box-shadow: 0 0 4px rgba(240, 134, 64, 0.959);
+    float: left;
+    border-radius: 5px;
+    margin-right: 1%;
+}
+.box1 ol{
+    display: block;
+    /* list-style: none; */
+   line-height: 30px;
+}
+.box1 ol h3{
+    /* color: white; */
+    color: black;
+    border-bottom: black 1px solid;
+}
+.box1 ol li a{
+    display: block;
+    /* color: white; */
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+    font-size: large;
+}
+.box1 ol li a:hover{
+    font-weight: bolder;
+}
+
+.box2{
+    /* background-image: url(/images/Banner3.mp4); */
+    min-height: 400px;
+    width: 70%;
+    
+    float: right;
+    border-radius: 5px;
+}
+.box2 img{
+    border-radius: 5px;
+}
+.container_div>.container_navbar2{
+    display: block;
+    clear: both;
+    height: 40px;
+    background-image: linear-gradient(0, rgba(240, 134, 64, 0.959), rgb(233, 163, 71));
+    /* background-color: rgb(172, 206, 206); */
+    text-align: center;
+    border-radius: 5px;
+}
+.container_div>.container_navbar2>a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    margin: 0 70px;
+    line-height: 35px;
+    font-variant: small-caps;
+}
+.container_div>.container_navbar2>a:hover{
+    color: white;
+    font-weight: bolder;
+}
+.element{
+    width: 25%;
+   float: left;
+   height: 350px;
+   /* min-height: 350px; */
+}
+.sach{
+    border-radius: 10px;
+    /* box-shadow: 0 0 5px gray; */
+    box-shadow: 0 0 5px rgba(240, 134, 64, 0.959);
+    padding: 10px;
+    margin: 5px;
+    /* margin-top: 10px; */
+    text-align: center;
+}
+.sach:hover{
+    /* background-color: rgb(172, 206, 206); */
+    background-color: rgba(240, 134, 64, 0.959);
+}
+.element .ten{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-variant: small-caps; */
+    font-size: large;
+    /* color: white; */
+    color: black;
+}
+.element img{
+    height: 270px;
+    max-width: 95%;
+    
+}
+.element .gia{
+    /* color: white; */
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+.element .gia del{
+    color: gray;
+}
+
+/* .sach{
+    background-color: white;
+} */
+.footer{
+    /* border: 1px double black; */
+    text-align: center;
+    line-height: 150px;
+    clear: both;
+    height: 150px;
+    /* background-color: rgb(172, 206, 206); */
+    background-image: linear-gradient(0, rgba(240, 134, 64, 0.959), rgb(233, 163, 71));
+    border-radius: 3px;
+}
+audio{
+    height: 25px;
+    width: 80%;
+}
+
